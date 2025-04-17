@@ -1,7 +1,7 @@
 import "./App.scss";
 import { Route, Routes } from "react-router-dom";
 
-import Layout from "./components/layout/index.jsx";
+import Layout from "./components/Layout/index.jsx";
 import Home from "./components/Home/index.jsx";
 import About from "./components/About/index.jsx";
 import Contact from "./components/Contact/index.jsx";
