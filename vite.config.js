@@ -16,7 +16,7 @@ export default defineConfig({
 			},
 		},
 	},
-	// base: "/portfolio/",
+	base: "/person-website/",
 
-	base: "/",
+	// base: "/",
 });
