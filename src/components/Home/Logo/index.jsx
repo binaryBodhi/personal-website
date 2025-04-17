@@ -12,15 +12,14 @@ const Logo = () => {
 	useEffect(() => {
 		gsap.registerPlugin(DrawSVGPlugin);
 
-		gsap.timeline()
-			.to(bgRef.current, {
-				duration: 0,
-				opacity: 1,
-			})
-			.from(outlineLogoRef.current, {
-				drawSVG: 0, //drawSVG plugin is causing a bug
-				duration: 20,
-			});
+		gsap.timeline().to(bgRef.current, {
+			duration: 0,
+			opacity: 1,
+		});
+		// .from(outlineLogoRef.current, {
+		// 	drawSVG: 0, //drawSVG plugin is causing a bug
+		// 	duration: 20,
+		// });
 
 		gsap.fromTo(
 			solidLogoRef.current,
