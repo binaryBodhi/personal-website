@@ -43,6 +43,17 @@ const TextSphere = () => {
 	useEffect(() => {
 		TagCloud(container, texts, options);
 	}, []);
+	// useEffect(() => {
+	// 	const isMobile = window.innerWidth <= 768;
+
+	// 	const options = {
+	// 		radius: isMobile ? 150 : 350, // 👈 responsive radius
+	// 		maxSpeed: "normal",
+	// 		initSpeed: "normal",
+	// 		keep: true,
+	// 	};
+	// 	TagCloud(container, texts, options);
+	// }, []);
 
 	return (
 		<>

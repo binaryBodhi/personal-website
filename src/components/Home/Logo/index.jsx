@@ -16,8 +16,11 @@ const Logo = () => {
 			duration: 0,
 			opacity: 1,
 		});
+
+		//drawSVG plugin is causing a bug.
+		//UPDATE:temporary bug fix, commented plugin register code.
 		// .from(outlineLogoRef.current, {
-		// 	drawSVG: 0, //drawSVG plugin is causing a bug
+		// 	drawSVG: 0,
 		// 	duration: 20,
 		// });
 
