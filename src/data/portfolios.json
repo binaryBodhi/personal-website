@@ -1,0 +1,32 @@
+{
+	"portfolios": [
+		{
+			"cover": "/portfolio/1/cover.png",
+			"title": "AI Code Bud Predictor",
+			"techStack": "Python, Flask, scikit-learn, Transformers (CodeBERT), NumPy, HTML/CSS,",
+			"description": "A full-stack machine learning web-application that analyzes C code to predict potential bugs using transformer-based code embeddings and a custom-trained classifier.",
+			"url": "https://github.com/binaryBodhi/ai-code-bug-predictor"
+		},
+		{
+			"cover": "/portfolio/2/cover.png",
+			"title": "Upkeep Mobile",
+			"techStack": "React Native, TypeScript, Node.js, Firebase, Figma, Git",
+			"description": "Upkeep is a mobile-first application designed to help household members efficiently distribute, track, and manage chores and recurring tasks. Built with a React Native frontend and a Node.js backend integrated via RESTful APIs, the app enables users to assign responsibilities, receive notifications, and visualize household productivity.",
+			"url": "https://github.com/binaryBodhi/Upkeep"
+		},
+		{
+			"cover": "/portfolio/3/cover.png",
+			"title": "GymMate-Web App",
+			"techStack": "Node.js, Express.js, MongoDB, Mongoose, JWT, Handlebars, JavaScript",
+			"description": "GymMate is a web-based social networking platform tailored for fitness enthusiasts, personal trainers, and gyms to connect, share content, and track fitness activities. It allows users to discover gyms, interact with trainers, and engage in fitness-focused discussions and recommendations.",
+			"url": "https://github.com/binaryBodhi/GymMate"
+		},
+		{
+			"cover": "/portfolio/4/cover.png",
+			"title": "Sentimental Analysis",
+			"techStack": "Python, Flask, scikit-learn, NLTK, Tweepy, Pandas, Matplotlib, HTML/CSS",
+			"description": "Twitter Sentiment Analysis is a full-stack web application that analyzes public sentiment on Twitter around specific keywords or hashtags. It leverages Natural Language Processing (NLP) techniques to classify tweets as positive, negative, or neutral and visualizes real-time trends and insights.",
+			"url": "https://github.com/binaryBodhi/twitter_sentiment_analysis"
+		}
+	]
+}
