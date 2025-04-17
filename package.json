@@ -1,6 +1,6 @@
 {
 	"name": "portfolio",
-	"homepage": "https://binaryBodhi.github.io/personal-website",
+	"homepage": "https://binarybodhi.netlify.app",
 	"private": true,
 	"version": "0.0.0",
 	"type": "module",
